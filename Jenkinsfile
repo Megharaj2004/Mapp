@@ -7,7 +7,7 @@ pipeline{
 	stages{
 		stage('Checkout'){
 			steps{
-				git branch: 'master', url: 'www.github.com/Megharaj2004/Mapp'
+				git branch: 'master', url: 'https://github.com/Megharaj2004/Mapp'
 			}
 		}
 		stage('Build'){
